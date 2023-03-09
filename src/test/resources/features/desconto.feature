@@ -6,6 +6,7 @@
 
   Cenario: Visualizar código  de desconto
     Dado que estou no site da qazando
-    Quando  eu preencher meu email
+    Quando  eu preencher meu e-mail
     E clico em ganhar cupom
     Entao eu vejo p código de desconto
+
