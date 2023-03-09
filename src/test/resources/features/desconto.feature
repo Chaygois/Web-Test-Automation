@@ -1,12 +1,19 @@
 #language: pt
-  Funcionalidade: Receber desconto da qazando
-    Eu como usuário da qazando.
-  quero receber um cupom de desconto.
-  para comprar um curso com valor reduzido.
 
-  Cenario: Visualizar código  de desconto
-    Dado que estou no site da qazando
-    Quando  eu preencher meu e-mail
-    E clico em ganhar cupom
-    Entao eu vejo p código de desconto
+Funcionalidade: Receber desconto da QAzando
+  Eu como usuario da Qazando
+  Quero receber um cupom de desconto
+  Para comprar um curso com valor reduzido
+
+  @gerar-cupom
+  Cenario: Visualizar codigo de desconto
+    Dado que estou no site da Qazando
+    Quando preencho meu endereco de email
+    E clico no botao ganhar cupom
+    Entao vejo o codigo de desconto
+
+
+
+
+
 
